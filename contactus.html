@@ -3,9 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Contact Us</title>
 </head>
 <body>
-    <h1></h1>
+    <nav class="navbar">
+        <img class="nav-icon" src="images/profile.png" alt="">
+        <div class="nav-middle">
+            <img class="nav-icon" src="images/searchIcon.png" alt="">
+            <img class="nav-icon" src="images/menu.png" alt="">
+            <img class="nav-icon" src="images/favorite.png" alt="">
+            <img class="nav-icon" src="images/contactUs.png" alt="">
+        </div>
+        <img class="nav-icon" src="images/settings.png" alt="">
+    </nav>
+    <form class="contact-us-form">
+        <label for="name">Name:</label>
+        <input type="text" name="name" id="name">
+        <br>
+        <label for="email">Email</label>    
+        <input type="email" name="email" id="email">
+        <br>
+        <label for="country">Coucnty</label>
+        <input type="text" name="country" id="country">
+        <br>
+        <label for="message">Massege:</label>
+        <textarea type="text" name="message" id="message"></textarea>
+    </form>
 </body>
 </html>
