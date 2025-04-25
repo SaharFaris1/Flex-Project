@@ -78,16 +78,30 @@ h4{
     font-size: 0.7rem;
     color: #ffffff;  
 }
-.search-type{
-    
-    width: 100%;
-   
+
+.movie-infos {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: calc(var(--space-top) / 2);
 }
 
-.material-symbols-outlined{
-    color:#ffffff  ;
-    padding: 4% 0% 0% 6%;
+.movie-info {
+    display: flex;
+    align-items: center;
+    font-size: 0.8rem;
+    font-weight: 600;
+    padding: 2%;
 }
+
+.movie-info span {
+    margin-left: 5px;
+}
+
+.movie-info i {
+    color: black;
+}
+
 
 .film-trend{
     display: flex;
@@ -119,7 +133,7 @@ h4{
     
    
 }
-.buttons {
+.buttons{
    
     justify-content: space-between;
     gap: 5%;
@@ -140,4 +154,17 @@ h4{
 }
 
 
-
+.button-watch{
+    display: inline-flex;
+    align-items: center;
+    padding: 15px 25px;
+    height: 5vh; 
+    border: none; 
+    border-radius: 5px; 
+    background-color: rgba(0, 0, 0, 0.7); 
+    color: white; 
+    cursor: pointer; 
+    font-size: 0.9rem;
+    font-weight: bold;
+   
+}
