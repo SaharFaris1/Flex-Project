@@ -125,4 +125,47 @@ ul{
 .register:hover {
     background-color: #000000; 
 }
+.footer {
+    display: flex;
+    justify-content: center;
+    gap: 15%;
+    color: #ffffff;
+    background-color: #1f232d;
+    padding: 10% ;
+  }
+  
+  .footer-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 35px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10rem;
+    color: #000000;
+    font-size: 1rem;
+    gap: 15%;
+    
+   
+  }
+  .footer a {
+    text-decoration: none;
+   
+  }
+  
+  .footer-nav {
+    display: flex;
+      flex-flow: row wrap;
+    
+  }
+  .nav-ul a {
 
+    color: #ffffff;
+  }
+  li{
+    list-style: none;
+ 
+  }
+
+.legal{
+    padding: 3%;
+}
