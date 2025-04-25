@@ -33,18 +33,36 @@
             <img class="nav-icon"  src="images/settings.png" alt="">
         </a>
     </nav>
-    <form class="contact-us-form">
-        <label for="name">Name:</label>
-        <input type="text" name="name" id="name">
-        <br>
-        <label for="email">Email</label>    
-        <input type="email" name="email" id="email">
-        <br>
-        <label for="country">Coucnty</label>
-        <input type="text" name="country" id="country">
-        <br>
-        <label for="message">Massege:</label>
-        <textarea type="text" name="message" id="message"></textarea>
-    </form>
+
+    <div class="container">  
+        <div  class="contact-us-content">
+            <p class="contact-us-text">Reach to Us</p>
+            <form class="contact-us-form">
+                <div class="question">
+                    <label for="name">Name:</label>
+                    <br>
+                    <input type="text" name="name" id="name">
+                </div>      
+                <div class="question">
+                    <label for="email">Email</label>    
+                    <br>
+                    <input type="email" name="email" id="email">  
+                </div>
+                <div class="question">
+                    <label for="country">Coucnty</label>
+                    <br>
+                    <input type="text" name="country" id="country">   
+                </div>
+                <div class="question">
+                    <label for="message">Massege:</label>
+                    <br><br>
+                    <textarea  rows="6" type="text" name="message" id="message"></textarea>
+                </div>          
+                <button class="send-form-btn" type="submit">Send</button>
+            </form>
+        </div>
+        
+    </div>
+    
 </body>
 </html>
