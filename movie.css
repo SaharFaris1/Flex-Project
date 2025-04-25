@@ -1,41 +1,41 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
-body{
+
+body {
     align-content: center;
 }
 
 
-.movie-details{
+.movie-details {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    background-image: url("eno.jpg");
-    width: 100%;
-    height: 50vh;
+    background-image: url("images/eno.jpg");
+    width: 90%;
+    height: 40vh;
     background-size: cover;
     color: rgb(255, 255, 255);
     font-size: 1.5rem;
     padding: 10% 2%;
-   
-    
 }
 
 
-.enola{
+.enola {
     font-size: 3rem;
-    
 }
-.details{
+
+.details {
     width: 80%;
-   padding: 2%  0 ;
+    padding: 2% 0;
     font-size: 1rem;
 }
 
 .movie-infos {
     display: flex;
 }
+
 .movie-info {
     display: flex;
     align-items: center;
@@ -43,51 +43,53 @@ body{
     font-weight: 600;
     padding: 1%;
 }
-.button-watch{
+
+.button-watch {
     display: inline-flex;
     align-items: center;
     padding: 15px 25px;
-    height: 5vh; 
-    border: none; 
-    border-radius: 5px; 
-    background-color: rgba(0, 0, 0, 0.7); 
-    color: white; 
-    cursor: pointer; 
+    height: 5vh;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    cursor: pointer;
     font-size: 0.9rem;
     font-weight: bold;
-   
 }
-.section-details{
+
+.section-details {
     background-color: #1f232d;
-    padding: 3% 2%;
-    
+    width: 92%;
 }
 
-
-.more-detail{
+.more-detail {
     display: flex;
-padding: 2%;
+    padding: 2%;
 }
-.actor{
+
+.actor {
     color: white;
     padding: 3%;
     list-style: none;
     font-size: 1rem;
-    
+
 }
-.watch-ad{
+
+.watch-ad {
     display: flex;
-    flex-direction: column; 
+    flex-direction: column;
     align-items: center;
     color: rgb(255, 255, 255);
     gap: 5%;
 }
-.ad{
+
+.ad {
     color: rgb(255, 255, 255);
 }
 
 
-.movies{
+.movies {
     width: 14%;
     height: 15%;
     padding: 1%;
@@ -97,22 +99,25 @@ padding: 2%;
 .sub-section {
     display: flex;
     justify-content: center;
-  gap: 13%;
-  padding: 2%;
+    gap: 13%;
+    padding: 2%;
 
 }
+
 .subscribe {
     width: 13%;
-   background-color: rgba(157, 157, 157, 0.277); 
+    background-color: rgba(157, 157, 157, 0.277);
     color: #fff;
     padding: 2rem;
     border-radius: 5%;
 }
-ul{
+
+ul {
     list-style: none;
     font-size: 1rem;
     padding: 1%;
 }
+
 .register {
     background-color: #a8afb7cb;
     color: white;
@@ -122,19 +127,21 @@ ul{
     font-size: 16px;
     padding: 6%;
 }
+
 .register:hover {
-    background-color: #000000; 
+    background-color: #000000;
 }
+
 .footer {
     display: flex;
     justify-content: center;
     gap: 15%;
     color: #ffffff;
     background-color: #1f232d;
-    padding: 10% ;
-  }
-  
-  .footer-btn {
+    padding: 10%;
+}
+
+.footer-btn {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -144,28 +151,31 @@ ul{
     color: #000000;
     font-size: 1rem;
     gap: 15%;
-    
-   
-  }
-  .footer a {
+
+
+}
+
+.footer a {
     text-decoration: none;
-   
-  }
-  
-  .footer-nav {
+
+}
+
+.footer-nav {
     display: flex;
-      flex-flow: row wrap;
-    
-  }
-  .nav-ul a {
+    flex-flow: row wrap;
+
+}
+
+.nav-ul a {
 
     color: #ffffff;
-  }
-  li{
-    list-style: none;
- 
-  }
+}
 
-.legal{
+li {
+    list-style: none;
+
+}
+
+.legal {
     padding: 3%;
 }
