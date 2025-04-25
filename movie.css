@@ -2,12 +2,15 @@
     margin: 0;
     padding: 0;
 }
+body{
+    align-content: center;
+}
+
 
 .movie-details{
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    position: relative; 
     background-image: url("eno.jpg");
     width: 100%;
     height: 50vh;
@@ -18,32 +21,17 @@
    
     
 }
-.movie-details::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.179);
-   
-  
-}
+
 
 .enola{
-
     font-size: 3rem;
     
 }
 .details{
-    width: 50%;
-    font-size: 1.5rem;
-    padding: 1%;
+    width: 80%;
+   padding: 2%  0 ;
+    font-size: 1rem;
 }
-
-
-
-
 
 .movie-infos {
     display: flex;
@@ -68,5 +56,73 @@
     font-size: 0.9rem;
     font-weight: bold;
    
+}
+.section-details{
+    background-color: #1f232d;
+    padding: 3% 2%;
+    
+}
+
+
+.more-detail{
+    display: flex;
+padding: 2%;
+}
+.actor{
+    color: white;
+    padding: 3%;
+    list-style: none;
+    font-size: 1rem;
+    
+}
+.watch-ad{
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    color: rgb(255, 255, 255);
+    gap: 5%;
+}
+.ad{
+    color: rgb(255, 255, 255);
+}
+
+
+.movies{
+    width: 14%;
+    height: 15%;
+    padding: 1%;
+}
+
+
+.sub-section {
+    display: flex;
+    justify-content: center;
+  gap: 13%;
+  padding: 2%;
+
+}
+.subscribe {
+    width: 13%;
+   background-color: rgba(157, 157, 157, 0.277); 
+    color: #fff;
+    padding: 2rem;
+    border-radius: 5%;
+}
+ul{
+    list-style: none;
+    font-size: 1rem;
+    padding: 1%;
+}
+.register {
+    background-color: #a8afb7cb;
+    color: white;
+    border: none;
+    border-radius: 1em;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 6%;
+}
+.register:hover {
+    background-color: #000000; 
 }
 

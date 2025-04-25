@@ -263,7 +263,7 @@ h4 {
     font-weight: bold;
 }
 
-.buttons:hover {
+.buttons:hover .bu{
     background-color: rgba(0, 0, 0, 0.9);
 }
 
