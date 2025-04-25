@@ -44,8 +44,11 @@ body {
 
 .hero {
     width: 100%;
-    height: 60vh;
+    height: 90vh;
     background-color:rgb(24, 26, 33);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .movies-section {
@@ -118,8 +121,8 @@ body {
 .header-section{
     align-items: center;
     width: 100%;
+   
 }
-
 .website-name{
     display: flex;
     justify-content: space-between;
@@ -129,25 +132,21 @@ body {
     color: #f5f5f5;
     padding: 2%;
 }
-
 .title{
     font-size: 2rem;
     color: #ffffff;
 }
-
 .website-logo{
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-
 .logo{
     width: 50px;
     background-color: #ffffff;
     border-radius: 1em;
     padding: 1%;
 }
-
 .accounts{
     display: flex;
     align-content: flex-end;
@@ -174,17 +173,24 @@ body {
 }
 
 h4 {
- color:   #ffffff;
+    color:  #ffffff;
     padding: 2%;
+}
+
+.types {
+    height: 3em;
+    width: 99%;
+    display: flex;
+    align-items: center;
+    gap: 1em;
 }
 
 .types button{ 
     width: 7%;
-    height: 3vh;
+    height: 3.4vh;
     border: 1px  #a7a7a7  solid ;
     border-radius: 8px;
     background-color: #a7a7a74f;
-    color: white;
     font-size: 0.7rem;
     color: #ffffff;  
 }
@@ -216,8 +222,7 @@ h4 {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    margin: 2%;
-    width: 70%;
+    width: 96%;
     height: 50vh;
     background-image: url("eno.jpg");
     border-radius: 2em;
