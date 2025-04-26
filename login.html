@@ -4,18 +4,50 @@
     <title>Login</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="login.css"/>
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="login.css" />
-    <link rel="stylesheet" href="style.css">
+
+   
    
   </head>
 
   <body>
-    
-    <div class="container">
+    <nav class="navbar">
+        <a href="" class="nav-link">
+            <img class="nav-icon" src="images/profile.png" alt="">
+        </a>
+        <div class="nav-middle">
+            <a href="index.html" class="nav-link">
+                <img class="nav-icon" src="images/home.png" alt="">
+            </a>
+            <a href="search.html" class="nav-link">
+                <img class="nav-icon" src="images/searchIcon.png" alt="">
+            </a>
+            <a href="" class="nav-link">
+                <img class="nav-icon" src="images/menu.png" alt="">
+            </a>
+            <a href="" class="nav-link">
+                <img class="nav-icon" src="images/favorite.png" alt="">
+            </a>
+            <a href="contactus.html" class="nav-link">
+                <img class="nav-icon" src="images/contactUs.png" alt="">
+            </a>
+        </div>
+        <a href="" class="nav-link">
+            <img class="nav-icon" src="images/settings.png" alt="">
+        </a>
+    </nav>
+    <section class="header-section">
+        <div class="website-logo">
+            <div class="website-name">
+                <img class="logo" src="./images/logo.png" alt="logo">
+                <h2 class="title"> Fushaar </h2>
+            </div>
+        </section>
+    <div class="container-h">
       <div class="square">
         <div class="left">
           <div class="title">
@@ -100,7 +132,7 @@
               <input type="text" placeholder="Username" />
               <label for="password"> PASSWORD </label>
               <input type="password" placeholder="Password" />
-             <a href="index.html"> <button>Log In</button></a>
+             <a href="index.html" class="login"> <button>Log In</button></a>
             </form>
           </div>
           <div class="pass">
@@ -115,7 +147,7 @@
           <div class="wrapper">
             <h1>Welcome to login</h1>
             <h5>Don't have an account?</h5>
-            <button>Sign Up</button>
+            <button class="signup">Sign Up</button>
           </div>
         </div>
       </div>

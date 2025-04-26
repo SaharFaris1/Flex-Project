@@ -1,25 +1,83 @@
-* {
-    box-sizing: border-box;
-  }
+
   
   body {
     margin: 0;
     padding: 0;
     font-family: "Poppins", sans-serif;
+    background-color: #1f232d;
   }
 
   
+.navbar {
+    width: 7vw;
+    height: 100vh;
+    background-color:rgb(30, 36, 51);
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav-middle {
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.nav-link {
+    width: 30%;
+}
+.nav-icon {
+    width: 100%;
+}
+.header-section{
+    align-items: center;
+    width: 100%;
+    padding-left: 10%;
+   
+}
+
+
+.website-name{
+    display: flex;
+    justify-content: space-between;
+    gap: 10%;
+    align-items: center;
+    height: 4vh;
+    color: #f5f5f5;
+    padding: 2%;
+}
+.title{
+    font-size: 2rem;
+    color: #ffffff;
+}
+.website-logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    width: 50px;
+    background-color: #ffffff;
+    border-radius: 1em;
+    padding: 1%;
+}
   
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6,
-  p {
-    margin: 0;
-  }
-  
+ 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
   button,
   input[type="submit"],
   input[type="reset"] {
@@ -31,38 +89,38 @@
     cursor: pointer;
     outline: inherit;
   }
-  
-  .container {
-    height: 100%;
-    width: 100%;
-    background-color: #d9d9d9;
-    position: absolute;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  .container-h{
+   
+        width: 90%;
+        height: 100vh; 
+        display: flex;
+        justify-content: center; 
+        align-items: center; 
+    
   }
+ 
   
   .square {
-    width: 868px;
-    height: 400px;
-    background-color: #fff;
+    width: 60%;
+    height: 450px;
     border-radius: 10px;
-    box-shadow: 0px 0px 10px 0px #bfbfbf;
     overflow: hidden;
     display: flex;
+
   }
   
   .left {
     background-color: #fff;
-    width: 50%;
+    width: 40%;
     height: 100%;
     padding: 50px;
   }
   
   .right {
-  background-color: #1f232d;
+  background-color: #ffffff;
     width: 50%;
     height: 100%;
+    border: #1f232d;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -77,20 +135,21 @@
     flex-direction: column;
   }
   h1 {
-    color: #fff;
+    color: #1f232d;
     text-align: center;
     margin-bottom: 25px;
   }
   h5 {
-    color: #fff;
+    color: #000000;
     text-align: center;
     font-weight: 100;
   }
-  button {
+  .forgot {
     margin: 15px;
+    width: 50%;
     border-radius: 10px;
-    color: #fff;
-    border: 1px solid #fff;
+    color: #2b2727;
+    border: 1px solid #ffffff;
     border-radius: 30px;
     padding: 10px 15px;
     font-size: 0.7rem;
@@ -131,7 +190,7 @@
   }
   form input {
     width: 300px;
-    height: 40px;
+    height: 25px;
     background: #eee;
     border: none;
     border-radius: 25px;
@@ -139,14 +198,16 @@
     font-size: 0.7rem;
   }
   
-  form > button {
-    width: 300px;
-    height: 40px;
+  .login {
+    width: 280px;
+    height: 25px;
     background: #1f232d;
     color: #fff;
     border-radius: 25px;
-    font-size: 0.7rem;
-    padding: 10px;
+    font-size: 1rem;
+    text-align: center;
+    padding: 10px 10px;
+    margin: 12px;
   }
   .pass {
     display: flex;
@@ -167,4 +228,7 @@
   }
   input[type=checkbox]{
     accent-color:  #1f232d;  
+    }
+    .signup{
+        color: #1f232d;
     }
