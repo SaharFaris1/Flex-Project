@@ -1,0 +1,170 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+  }
+
+  
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p {
+    margin: 0;
+  }
+  
+  button,
+  input[type="submit"],
+  input[type="reset"] {
+    background: none;
+    color: inherit;
+    border: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+  }
+  
+  .container {
+    height: 100%;
+    width: 100%;
+    background-color: #d9d9d9;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .square {
+    width: 868px;
+    height: 400px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px #bfbfbf;
+    overflow: hidden;
+    display: flex;
+  }
+  
+  .left {
+    background-color: #fff;
+    width: 50%;
+    height: 100%;
+    padding: 50px;
+  }
+  
+  .right {
+  background-color: #1f232d;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  p{
+    color: #1f232d;
+  }
+  .wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  h1 {
+    color: #fff;
+    text-align: center;
+    margin-bottom: 25px;
+  }
+  h5 {
+    color: #fff;
+    text-align: center;
+    font-weight: 100;
+  }
+  button {
+    margin: 15px;
+    border-radius: 10px;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 30px;
+    padding: 10px 15px;
+    font-size: 0.7rem;
+  }
+  .title {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .title > p {
+    font-size: 1.5rem;
+  }
+  
+  .icons-wrapper {
+    display: flex;
+  }
+  .icon-circle {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #000;
+    border-radius: 100%;
+    margin-left: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  form {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+  }
+  form label {
+    font-size: 0.6rem;
+    margin: 10px;
+    font-weight: bold;
+  }
+  form input {
+    width: 300px;
+    height: 40px;
+    background: #eee;
+    border: none;
+    border-radius: 25px;
+    padding: 10px;
+    font-size: 0.7rem;
+  }
+  
+  form > button {
+    width: 300px;
+    height: 40px;
+    background: #1f232d;
+    color: #fff;
+    border-radius: 25px;
+    font-size: 0.7rem;
+    padding: 10px;
+  }
+  .pass {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+  }
+  
+  .forgot {
+    color: #949494;
+    font-size: 0.7rem;
+  }
+  
+  .remmber{
+  color : #1f232d;
+  font-size: 0.7rem;
+  
+  }
+  input[type=checkbox]{
+    accent-color:  #1f232d;  
+    }
