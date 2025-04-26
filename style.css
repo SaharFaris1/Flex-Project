@@ -350,14 +350,15 @@ h4 {
 
 .send-form-btn {
     border: 1px solid #1f232d;
-    background-color: rgb(183, 184, 193);
+    background-color: rgb(218, 220, 230);
     font-size: 1em;
     border-radius: 9px;
     width: 30%;
     height: 7%;
+    font-weight: 900;
 }
 
 .send-form-btn:hover {
     background-color: rgb(163, 162, 170);
-
+    
 }
