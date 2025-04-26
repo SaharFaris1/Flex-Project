@@ -416,3 +416,14 @@ h4 {
     border: 1px solid rgb(43, 42, 42);
     box-shadow: 0 4px 8px rgb(38, 38, 45) ;
 }
+
+.search-text {
+    color: white;
+    width: 87%;
+    height: 26%;
+    font-size: 3rem;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
