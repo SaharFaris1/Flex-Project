@@ -95,13 +95,27 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-around;
-    border-radius: 9px;
+    align-content: center;
+    justify-content: space-evenly;
+    border-radius: 11px;
     flex-shrink: 0;
 }
 
+.movie-card:hover {
+    width: 28%;
+    height: 96%;
+    background-color:rgb(69, 77, 98);
+
+}
+
 .movie-poster {
-    width: 100%;
+    width: 98%;
+    display: block;
+}
+
+.movie-link {
+    display: flex;
+    justify-content: center;
 }
 
 .movie-title {
@@ -265,7 +279,7 @@ h4 {
     font-weight: bold;
 }
 
-.buttons:hover .bu{
+.buttons:hover {
     background-color: rgba(0, 0, 0, 0.9);
 }
 
