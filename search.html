@@ -1,14 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="movie.css">
-    <title>Contact Us</title>
+    <title>Search</title>
 </head>
-
 <body>
     <nav class="navbar">
         <a href="" class="nav-link">
@@ -38,33 +36,23 @@
     </nav>
 
     <div class="container">
-        <div class="contact-us-content">
-            <p class="contact-us-text">Reach to Us</p>
-            <form class="contact-us-form">
-                <div class="question">
-                    <label for="name">Name:</label>
-                    <br>
-                    <input type="text" name="name" id="name">
-                </div>
-                <div class="question">
-                    <label for="email">Email</label>
-                    <br>
-                    <input type="email" name="email" id="email">
-                </div>
-                <div class="question">
-                    <label for="country">Coucnty</label>
-                    <br>
-                    <input type="text" name="country" id="country">
-                </div>
-                <div class="question">
-                    <label for="message">Massege:</label>
-                    <br><br>
-                    <textarea rows="6" type="text" name="message" id="message"></textarea>
-                </div>
-                <button class="send-form-btn" type="submit">Send</button>
-            </form>
-        </div>
+        <div class="search-content">
+            <p class="contact-us-text">Search for movies and tv shows</p>
+            <input type="text" name="search" class="search" placeholder="Search..." autofocus>
+        
+        <div class="genres">
+            <a href="" style="background: rgb(119, 56, 56)" class="genre">Action</a>
+            <a href="" style="background: rgb(84, 127, 191)" class="genre">Drama</a>
+            <a href="" style="background: rgb(60, 114, 104)" class="genre">Comedy</a>
+            <a href="" style="background: rgb(188, 151, 66)" class="genre">Thriller</a>
+            <a href="" style="background: rgb(114, 60, 95)" class="genre">Family</a>
+            <a href="" style="background: rgb(66, 51, 81)" class="genre">Horror</a>
+            <a href="" style="background: rgb(57, 13, 27)" class="genre">Romance</a>
+            <a href="" style="background: rgb(117, 117, 166)" class="genre">Historical</a>
+            <a href="" style="background: rgb(21, 83, 104)" class="genre">Animation</a>
 
+        </div>
+        </div>
     </div>
     <footer class="footer">
         <div class="footer-addr">
@@ -155,5 +143,4 @@
     </footer>
 
 </body>
-
 </html>
