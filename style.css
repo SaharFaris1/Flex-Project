@@ -105,7 +105,7 @@ body {
     width: 28%;
     height: 96%;
     background-color:rgb(69, 77, 98);
-
+    border: 1px solid whitesmoke;
 }
 
 .movie-poster {
@@ -415,6 +415,12 @@ h4 {
     align-items: center;
     border: 1px solid rgb(43, 42, 42);
     box-shadow: 0 4px 8px rgb(38, 38, 45) ;
+}
+
+.genre:hover {
+    width: 27%;
+    height: 25%;
+    border: 2px solid rgb(207, 198, 198);
 }
 
 .search-text {
