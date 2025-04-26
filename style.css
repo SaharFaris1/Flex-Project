@@ -359,5 +359,59 @@ h4 {
 
 .send-form-btn:hover {
     background-color: rgb(163, 162, 170);
+}
 
+
+.search-content {
+    background: linear-gradient(rgba(29, 29, 39, 0.8), rgba(33, 33, 52, 0.8)), url('images/moviescollectionbg.png') center / cover no-repeat;
+    width: 93vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 1em;
+    align-items: center;
+}
+
+.search {
+    width: 70%;
+    height: 10%;
+    border-radius: 9px;
+    background-color: #1f232d;
+    border: 1px solid rgb(190, 189, 198);
+    color: white;
+    font-size: 2em;
+    background: url("images/searchIcon.png") left no-repeat;
+    background-size:  1em auto;
+    padding-left: 1.4em;
+}
+
+.search:focus {
+    border: 2px solid #ffffff;
+    background-color: #272d3c;
+    outline: none;
+}
+
+.genres {
+    width: 87%;
+    display: flex;
+    overflow-x: auto;
+    height: 100vh;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.genre {
+    text-decoration: none;
+    width: 25%;
+    height: 24%;
+    border-radius: 12px;
+    color: rgb(223, 221, 234);
+    font-size: 3em;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(43, 42, 42);
+    box-shadow: 0 4px 8px rgb(38, 38, 45) ;
 }
